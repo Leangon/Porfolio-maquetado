@@ -1,0 +1,118 @@
+/*CSS Reset / Normalize*/
+/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
+en las secciones señaladas */
+/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
+coloque nas sessões indicadas*/
+
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fondo: #F0E9D2;
+   --cor-de-link: #000;
+   --cor-de-cards: linear-gradient(-131deg, #FCDFE7 0%, #FFE4C7 100%);;
+   --cor-de-skills: #ffffff;
+   --cor-de-letra: #181D31;
+   --cor-de-gradiente: linear-gradient(-131deg, #FCDFE7 0%, #FFE4C7 100%);
+
+    --font-family-body: "Montserrat", sans-serif;
+    --font-family-logo: "Pacifico", cursive;
+    --font-family-raleway: "Raleway", sans-serif;
+  
+    --font-weigth-input: 300;
+  
+    --font-size-logo: 28px;
+    --font-size-card-title: 28px;
+    --font-size-input-label: 20px;
+    --font-size-button: 22px;
+    --font-size-form-fieldset: 22px;
+    --font-size-table-header: 22px;
+    --font-size-modal-title: 28px;
+    --font-size-modal-button: 28px;
+  
+    --primary-color: #0071ea;
+    --secondary-color: #d6eaff;
+    --contrast-dark-color: #4d4d4d;
+  
+    --contrast-light-color: #fff;
+    --warning-color: #181D31;
+    --success-color: #047900;
+    --transparency-color: #4d4d4d33;
+  
+    --shadow: 0 5px 10px #55a6ff38;
+  }
+
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fondo) ;
+    font-family: 'Raleway';
+    /* font-size: 8px; */
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+/*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
+
+Lo que es el BEM?
+
+BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
+desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
+independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
+con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
+
+Enlace de la documentación oficial!
+https://en.bem.info/methodology/quick-start/*/
+
+
+
+/* Vamos a desafiarnos trabajando con responsividad?
+Utiliza las referencias de los breakpoints @media abajo */
+
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+
+/* Menú */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sección sobre mi*/
+
+/*Skills*/
+
+/*Hobbies*/
+ 
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+ /*Contacto*/
+
+/*Footer*/
+
+}
